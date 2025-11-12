@@ -6,3 +6,19 @@ Modifié dans la branche DEV
 
 modifié depuis le depot cloné
 Modification effectuée directement depuis GitHub
+
+# Projet Windows - Python Niveau 1
+
+Ce projet contient les exercices de programmation Python niveau 1.
+
+## Contenu
+- Exercice 1 : Compréhension de liste  
+- Exercice 2 : Chaînes et conditions  
+- Exercice 3 : Dictionnaire simple  
+- Exercice 4 : Ensemble (set)
+
+## Auteur
+Oussama
+
+## Date
+12 novembre 2025
