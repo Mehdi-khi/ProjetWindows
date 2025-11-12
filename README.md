@@ -7,7 +7,7 @@ Modifié dans la branche DEV
 modifié depuis le depot cloné
 Modification effectuée directement depuis GitHub
 
-<<<<<<< HEAD
+
 
 ## Section finale
 J’ai ajouté ma partie pour tester les commits et le push.
@@ -27,4 +27,4 @@ Oussama
 
 ## Date
 12 novembre 2025
->>>>>>> d7484cf97580233b7b62f995bd401d940ba013eb
+
