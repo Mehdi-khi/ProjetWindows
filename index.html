@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OfficielEntp</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background-color: #f2d8b5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 5%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .header nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header nav div {
+            cursor: pointer;
+            padding: 5px 10px;
+            transition: 0.3s;
+        }
+
+        .header nav div:hover {
+            background-color: #e5bfa5;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 60px 5%;
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #d17a2f;
+            font-size: 1.8rem;
+        }
+
+        section p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #7fd8d8;
+            color: #fff;
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        footer div {
+            margin-bottom: 10px;
+        }
+
+        footer div div {
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .header nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            footer {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">OfficielEntp</div>
+        <nav>
+            <div>Accueil</div>
+            <div>Galerie</div>
+            <div>Contact</div>
+            <div>Photos</div>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Présentation Globale</h2>
+        <p>
+            Bienvenue sur le site officiel d’OfficielEntp. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quam a quaerat deleniti, nemo mollitia iusto. Rem laboriosam iure dolore! Minima vitae saepe fugiat, quia iste voluptatum at officia quisquam.
+        </p>
+        <p>
+            Notre entreprise se spécialise dans la création de solutions innovantes pour répondre aux besoins actuels du marché. Nous nous engageons à fournir un service de qualité et à maintenir une relation de confiance avec nos clients.
+        </p>
+    </section>
+
+    <section>
+        <h2>Introduction : Objectifs</h2>
+        <p>
+            L'objectif de ce projet est de présenter nos activités, nos compétences et nos valeurs. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis reiciendis aliquam vero eligendi iste fuga molestiae sapiente beatae nobis rerum neque, facere asperiores porro velit saepe sit totam. Labore, deleniti?
+        </p>
+        <p>
+            Nous visons à améliorer continuellement nos services et à innover pour offrir des solutions adaptées à chaque client. Notre équipe est composée de professionnels expérimentés et passionnés par leur métier.
+        </p>
+    </section>
+
+    <section>
+        <h2>Galerie</h2>
+        <p>
+            Découvrez nos réalisations et nos projets récents. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div style="display:flex; gap: 15px; flex-wrap: wrap;">
+            <img src="https://via.placeholder.com/200" alt="Projet 1">
+            <img src="https://via.placeholder.com/200" alt="Projet 2">
+            <img src="https://via.placeholder.com/200" alt="Projet 3">
+            <img src="https://via.placeholder.com/200" alt="Projet 4">
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <strong>Coordonnées</strong>
+            <div>Téléphone : +33 6 12 34 56 78</div>
+            <div>Email : contact@officielentp.com</div>
+        </div>
+        <div>
+            <strong>Adresse</strong>
+            <div>123 Rue Exemple, 75001 Paris _</div>
+            <div>France</div>
+        </div>
+    </footer>
+
+</body>
+</html>
